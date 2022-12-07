@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Partie_3.Cancaneur"/>
+    <fullyQualifiedTypeName name="Partie_4.Colvert"/>
+    <fullyQualifiedTypeName name="Partie_4.CompteurDeCouacs"/>
+    <fullyQualifiedTypeName name="Partie_4.CanardEnPlastique"/>
+    <fullyQualifiedTypeName name="Partie_4.FabriqueDeComptage"/>
+    <fullyQualifiedTypeName name="Partie_4.FabriqueDeCanardAbstraite"/>
+    <fullyQualifiedTypeName name="Partie_5.Cancaneur"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>
