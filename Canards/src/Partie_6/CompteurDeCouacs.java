@@ -1,4 +1,4 @@
-package Partie_4;
+package Partie_6;
 
 public class CompteurDeCouacs implements Cancaneur {
 	private Cancaneur cancaneur;
@@ -6,7 +6,6 @@ public class CompteurDeCouacs implements Cancaneur {
 	
 	public CompteurDeCouacs(Cancaneur _cancaneur) {
 		this.cancaneur = _cancaneur;
-		
 	}
 	
 	public void cancaner() {
@@ -16,6 +15,17 @@ public class CompteurDeCouacs implements Cancaneur {
 	
 	public static int getCouacs() {
 		return nombreDeCouacs;
+	}
+	
+	@Override
+	public void enregistrerObservateur(Observateur observateur) {
+		cancaneur.enregistrerObservateur(observateur);
+	}
+
+	@Override
+	public void notifierObservateurs() {
+		//il n'y a rien
+		return;
 	}
 	
 }

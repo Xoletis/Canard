@@ -1,28 +1,34 @@
-package Partie_4;
+package Partie_6;
 
 public class SimulateurDeCanards {
 	
 	public static void main(String[] args) {
 		SimulateurDeCanards simulateur = new SimulateurDeCanards();
 		FabriqueDeCanardAbstraite fabriqueDeCanards = new FabriqueDeCanards();
+		
 		simulateur.simuler(fabriqueDeCanards);
 	}
 	
 	public void simuler(FabriqueDeCanardAbstraite fabriqueDeCanards) {
 		Cancaneur colvert =  fabriqueDeCanards.creerColvert();
-		Cancaneur mandarin = fabriqueDeCanards.creerMandarin();
-		Cancaneur appelant = fabriqueDeCanards.creerAppelant();
-		Cancaneur canardEnPlastique = fabriqueDeCanards.creerCanardEnPlastique();
-		Cancaneur oie = fabriqueDeCanards.creerOie();
 		
-		System.out.println("\n Simulateur de Canards");
+		Cancanologue leCancanologue = new Cancanologue();
+		
+		colvert.enregistrerObservateur(leCancanologue);
+		
+		Cancaneur colvert2 = fabriqueDeCanards.creerColvert();
+		Cancaneur madarin = fabriqueDeCanards.creerMandarin();
+		
+		Troupe troupe = new Troupe();
+		troupe.add(colvert2);
+		troupe.add(madarin);
+		
+		troupe.enregistrerObservateur(leCancanologue);
+		
+		System.out.println("Simulateur de Canards");
 		
 		simuler(colvert);
-		simuler(mandarin);
-		simuler(appelant);
-		simuler(canardEnPlastique);
-		simuler(oie);
-		System.out.println(CompteurDeCouacs.getCouacs());
+		simuler(troupe);
 	}
 	
 	public void simuler(Cancaneur canard) {

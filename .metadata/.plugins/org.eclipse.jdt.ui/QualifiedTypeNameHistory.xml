@@ -8,4 +8,20 @@
     <fullyQualifiedTypeName name="Partie_4.FabriqueDeCanardAbstraite"/>
     <fullyQualifiedTypeName name="Partie_5.Cancaneur"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Partie_6.CouacObservable"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="Partie_6.Observable"/>
+    <fullyQualifiedTypeName name="Partie_6.Appelant"/>
+    <fullyQualifiedTypeName name="Partie_6.Observateur"/>
+    <fullyQualifiedTypeName name="Partie_6.Cancanologue"/>
+    <fullyQualifiedTypeName name="Partie_6.FabriqueDeCanardAbstraite"/>
+    <fullyQualifiedTypeName name="Partie_6.FabriqueDeCanards"/>
+    <fullyQualifiedTypeName name="Partie_5.FabriqueDeCanards"/>
+    <fullyQualifiedTypeName name="Partie_4.FabriqueDeCanards"/>
+    <fullyQualifiedTypeName name="Partie_7.CompteurDeCouacs"/>
+    <fullyQualifiedTypeName name="Partie_7.AdaptateurDOie"/>
+    <fullyQualifiedTypeName name="Partie_7.FabriqueDeComptage"/>
+    <fullyQualifiedTypeName name="Partie_7.FabriqueDeCanards"/>
+    <fullyQualifiedTypeName name="Partie_7.VisitorCompteurNoeudFeuille"/>
 </qualifiedTypeNameHistroy>

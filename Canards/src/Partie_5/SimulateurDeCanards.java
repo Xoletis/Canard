@@ -4,7 +4,7 @@ public class SimulateurDeCanards {
 	
 	public static void main(String[] args) {
 		SimulateurDeCanards simulateur = new SimulateurDeCanards();
-		FabriqueDeComptage fabriqueDeCanards = new FabriqueDeComptage();
+		FabriqueDeCanardAbstraite fabriqueDeCanards = new FabriqueDeComptage();
 		simulateur.simuler(fabriqueDeCanards);
 	}
 	
